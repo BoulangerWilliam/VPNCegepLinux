@@ -22,7 +22,7 @@ Si vous utilisez une autre distribution, référez-vous à la documentation offi
 
 **2. Ouvrir les deux fichiers dans un éditeur de texte et remplacer tou ce qui est entre trois accolades par vos informations appropriées**
 
-Par exemple, {{{ton matricule du cégep}}} deviendra `1234567` si cela est votre matricule du cégep.
+Par exemple, `{{{ton matricule du cégep}}}` deviendra `1234567` si cela est votre matricule du cégep.
 
 En ce qui concerne `{{{ton subnet local}}}`, l'information peut être trouvée à l'aide des commandes `ipconfig` ou `ip addr show`.
 
