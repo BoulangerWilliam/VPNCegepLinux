@@ -21,13 +21,13 @@ https://docs.strongswan.org/docs/5.9/install/install.html
 
 **2. Ouvrir les deux fichiers dans un éditeur de texte et remplacer tout ce qui est entre trois accoladess**
 
-Pour se faire, il sera nécessaire d'avoir en posession **le guide de connexion officiel au VPN du cégep** puisqu'il contient la clé partagé à utiliser.
+Pour se faire, il sera nécessaire d'avoir en posession **le guide de connexion officiel au VPN du cégep** puisqu'il contient l'adresse du serveur VPN ainsi que la clé partagée à utiliser.
 
 Par exemple, `{{{ton matricule du cégep}}}` deviendra `1234567` si cela est votre matricule du cégep.
 
 En ce qui concerne `{{{ton subnet local}}}`, l'information peut être trouvée à l'aide des commandes `ipconfig` ou `ip addr show`.
 
-Il suffit de repérer le NIC utilisé pour se connecter à internet et de noter son adresse IP. Par exemple, si l'adresse IP utilisé est `10.0.0.160/24`, il fautra utiliser `10.0.0.0/24`. On peut ignorer le 160, car il est en dehors du subnet (/24 = 255.255.255.0).
+Il suffit de repérer le NIC utilisé pour se connecter à internet et de noter son adresse IP. Par exemple, si l'adresse IP utilisée est `10.0.0.160/24`, il fautra utiliser `10.0.0.0/24`. On peut ignorer le 160, car il est en dehors du subnet (/24 = 255.255.255.0).
 
 ## Utilisation
 * Utiliser la commande `sudo ipsec restart` afin de partir le daemon
