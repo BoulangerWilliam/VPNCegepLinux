@@ -12,7 +12,9 @@ Debian :
 ```
 sudo apt install strongswan
 ```
-Si vous utilisez une autre distribution, référez-vous à la documentation officielle : https://docs.strongswan.org/docs/5.9/install/install.html
+Si vous utilisez une autre distribution, référez-vous à la documentation officielle :
+
+https://docs.strongswan.org/docs/5.9/install/install.html
 
 ## Configuration
 **1. Copier les fichiers se situant dans le dossier etc de ce repository dans /etc**
@@ -37,7 +39,11 @@ Si tout fonnctionne, cela est clairement indiqué dans l'output de la dernière 
 ## Me contacter
 Dans tous les cas, si vous avez un problème avec quoi que ce soit, contactez-moi et j'essaierai de régler votre problème du mieux que je peux.
 
+
 Nom : William Boulanger
+
 Matricule : 1987690
+
 Email du cégep : 1987690@cegepmontpetit.ca
+
 Email personnel : willbou2@gmail.com
